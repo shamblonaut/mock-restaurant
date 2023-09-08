@@ -46,7 +46,11 @@ body {
 }
 
 .tab.active {
-    background-color: #34435e40;
+    background-color: #34435e70;
+}
+
+.tab:hover:not(.active) {
+    background-color: #34435e50;
 }
 
 .heading {
